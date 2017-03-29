@@ -150,7 +150,7 @@
             "autoplay": true,
             "paddingTop": "1",
             "paddingBottom": "3",
-            "timeout": "5",
+            "timeout": "7",
             "slides": [
               {
                 "active": false,
@@ -460,7 +460,7 @@
                 "active": false
               },
               {
-                "tags": "Structure",
+                "tags": "Structures",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
                 "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
@@ -470,7 +470,7 @@
                 "active": false
               },
               {
-                "tags": "Structure",
+                "tags": "Structures",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
                 "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
@@ -480,7 +480,7 @@
                 "active": false
               },
               {
-                "tags": "Structure",
+                "tags": "Structures",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
                 "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
@@ -490,17 +490,17 @@
                 "active": false
               },
               {
-                "tags": "Structure",
+                "tags": "Structures",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
                 "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/2017-01-26-13-2000x1513-800x605.jpg",
                 "image": "@PROJECT_PATH@/assets/images/2017-01-26-13-2000x1513.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
-                "tags": "Structure",
+                "tags": "Structures",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
                 "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
@@ -547,7 +547,97 @@
                 "thumb": "@PROJECT_PATH@/assets/images/dsc06035-2000x1336-800x534.jpg",
                 "image": "@PROJECT_PATH@/assets/images/dsc06035-2000x1336.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
+              },
+              {
+                "tags": "Birds",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
+                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06005-2000x1336-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06005-2000x1336.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
+                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06084-2000x1336-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06084-2000x1336.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Birds",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
+                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc05984-2000x1336-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc05984-2000x1336.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Birds",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
+                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06007-2000x1336-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06007-2000x1336.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Birds",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
+                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc05970-2000x1336-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc05970-2000x1336.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
+                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20161006-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20161006-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
+                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20161006-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20161006-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Trees",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
+                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/46e532aa-38ef-47a5-b867-f82365cd4c87-2000x3555-800x1422.jpg",
+                "image": "@PROJECT_PATH@/assets/images/46e532aa-38ef-47a5-b867-f82365cd4c87-2000x3555.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Structures",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
+                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/100-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/100-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
               }
             ],
             "spacing": 1,
