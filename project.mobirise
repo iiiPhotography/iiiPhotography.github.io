@@ -171,11 +171,11 @@
             "contentAlign": "right",
             "showTitle": true,
             "showText": true,
-            "showButtons": true
+            "showButtons": false
           },
           "title": "iiiPhotography",
           "text": "What is photography? How do you perceive a photo?<br><br>Well, let me explain how I feel about photography. First off, I must say photography is the essence of the past, you cannot deny a photo and what it stands for, where it came from or even the time it was snapped. A moment from the past,frozen in time,to reflect upon, learn from and stimulate the mind. I firmly believe photography is one of the worlds most important tools and personally, I cannot wait to see what is in the future for the industry.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_inherit": "gallery1",
