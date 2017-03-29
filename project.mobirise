@@ -147,7 +147,7 @@
           ],
           "_name": "slider3",
           "_params": {
-            "autoplay": true,
+            "autoplay": false,
             "paddingTop": "1",
             "paddingBottom": "3",
             "timeout": "7",
