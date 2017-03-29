@@ -477,8 +477,12 @@ h6,
 #ext_menu-f .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
 }
-#header4-0 .mbr-section-title {
+#header1-w .mbr-section-title {
   font-family: 'Oswald', sans-serif;
+  color: #000000;
+}
+#header1-w .mbr-section-lead {
+  color: #000000;
 }
 #social-buttons3-b .mbr-section-title,
 #social-buttons3-b .btn-social {
