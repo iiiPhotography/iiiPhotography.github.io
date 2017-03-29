@@ -481,3 +481,7 @@ h6,
 #menu-0 .close-icon::after {
   background-color: #ffffff;
 }
+#header3-5 .mbr-section-title,
+#header3-5 .mbr-section-subtitle {
+  text-align: center;
+}
