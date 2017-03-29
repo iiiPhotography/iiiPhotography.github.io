@@ -149,7 +149,7 @@
           "_params": {
             "autoplay": false,
             "paddingTop": "1",
-            "paddingBottom": "3",
+            "paddingBottom": "1",
             "timeout": "7",
             "slides": [
               {
