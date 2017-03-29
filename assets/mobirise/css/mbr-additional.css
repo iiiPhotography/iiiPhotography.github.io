@@ -1,6 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
+
+
 
 
 
@@ -411,7 +415,29 @@ h6,
 .scrollToTop_wraper {
   opacity: 0 !important;
 }
+#header4-0 .mbr-section-title {
+  font-family: 'Oswald', sans-serif;
+}
+#social-buttons3-b .mbr-section-title,
+#social-buttons3-b .btn-social {
+  color: #fff;
+}
+#social-buttons3-b .mbr-section-title {
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+#header3-e .mbr-section-title,
+#header3-e .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-e H3 {
+  text-align: right;
+  font-family: 'Oswald', sans-serif;
+}
 #header3-5 .mbr-section-title,
 #header3-5 .mbr-section-subtitle {
   text-align: center;
+}
+#header3-5 SMALL {
+  color: #ffffff;
 }

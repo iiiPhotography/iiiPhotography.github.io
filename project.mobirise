@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 6,
+    "uniqCompNum": 15,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -33,7 +33,8 @@
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "order": 1
       },
       "components": [
         {
@@ -83,7 +84,13 @@
           },
           "title": "iiiPhotography",
           "text": "What is photography? How do you perceive a photo?<br><br>Well, let me explain how I feel about photography. First off, I must say photography is the essence of the past, you cannot deny a photo and what it stands for, where it came from or even the time it was snapped. A moment from the past,frozen in time,to reflect upon, learn from and stimulate the mind. I firmly believe photography is one of the worlds most important tools and personally, I cannot wait to see what is in the future for the industry.",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          }
         },
         {
           "_tags": [
@@ -94,14 +101,168 @@
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff"
+            "bgColor": "#90a878"
           },
           "text": "<br><div><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i>Who am I? Why did I create this website?</i></span></font></div><div><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i><br></i></span></font></div><div><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i>When i was growing up, I found I had a knack for art. I was always creating something out of nothing, my mind and eyes having fun with the little things in life, drawing something I had seen. Photography never interested me until much later in life. I am thirty-two  and started taking it seriously just a few years ago. I am faithfully committed to a great camera and have taken countless pictures during this time..</i></span></font></div><div><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i><br></i></span></font></div><div><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i>I created this site for several reasons, but, I will just get to the \"brass tacks\" as they say. I believe I would be titled as an amateur photographer. But is any artist really an amateur? Its all in the eye of the beholder. which why I created this. In the finished stages of the site, I will still look back and view the beauty of what I had seen in the world, with my eyes, angle and creative style.</i></span></font></div><div><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i><br></i></span></font></div><div><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i>In saying that, I am not seeking mass hype, hits or views from this. My purpose is to simply have a domain where I can archive my work properly and as the added bonus, of having some of the world view my work.</i></span></font></div><div><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i>Thanks for checking in!</i></span></font></div><div><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i><br></i></span></font></div><div><font face=\"Lora, serif\"><span style=\"line-height: 26px;\"><i>- Josh</i></span></font></div>"
+        },
+        {
+          "_inherit": "social-buttons1",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-size": "30px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons3",
+          "_anchor": "social-buttons3-b",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "Care To Share?"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider3",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": "1",
+            "paddingBottom": "3",
+            "timeout": "5",
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/dsc06035-2000x1336.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "IMAGE SLIDER",
+                "showText": true,
+                "text": "“What makes photography a strange invention is that its primary raw materials are light and time.”<br>– John Berger<br>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/dsc05852-2000x1336.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "BACKGROUND VIDEO",
+                "showText": true,
+                "text": "“What I like about photographs is that they capture a moment that’s gone forever, impossible to reproduce.”<br>– Karl Lagerfeld<br>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/dsc06017-2000x1336.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "right",
+                "showTitle": false,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": true,
+                "text": "“If I saw something in my viewfinder that looked familiar to me, I would do something to shake it up.”<br>– Garry Winogrand<br>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/dsc06140-2000x1336.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "right",
+                "showTitle": false,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": true,
+                "text": "“Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever. It remembers little things, long after you have forgotten everything.”<br>— Aaron Siskind<br>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "fullScreen": false,
+            "bgColor": "#000000",
+            "showBullets": true
+          },
+          "_anchor": "slider3-9",
+          "articleLayout": false
         },
         {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
+            },
+            "H3": {
+              "text-align": "right",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-e",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Music While You Browse?",
+          "meta": ""
+        },
+        {
+          "soundURL": "url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F249615306",
+          "alias": "soundcloud",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "soundcloud1",
+          "_anchor": "soundcloud1-d",
+          "_params": {
+            "sound": "https://soundcloud.com/kingsofleon/sets/the-collection-156",
+            "autoplay": true,
+            "fullWidth": true
+          },
+          "iframeSRC": "https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F249615306&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "SMALL": {
+              "color": "#ffffff"
             }
           },
           "_tags": [
@@ -112,7 +273,7 @@
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff",
+            "bgColor": "#90a878",
             "showMeta": true
           },
           "title": "<span style=\"font-weight: normal;\">Photo Gallery</span>",
@@ -432,7 +593,7 @@
             "spacing": 1,
             "showText": false,
             "filter": true,
-            "bgColor": "fff",
+            "bgColor": "#90a878",
             "filterBgColor": false,
             "fullWidth": false,
             "showBullets": true
