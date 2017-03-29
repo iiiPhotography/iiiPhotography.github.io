@@ -7,7 +7,6 @@
 
 
 
-
 body,
 input,
 textarea,
@@ -424,14 +423,6 @@ h6,
 }
 #social-buttons3-b .mbr-section-title {
   font-size: 30px;
-  font-family: 'Oswald', sans-serif;
-}
-#header3-e .mbr-section-title,
-#header3-e .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-e H3 {
-  text-align: right;
   font-family: 'Oswald', sans-serif;
 }
 #header3-5 .mbr-section-title,
