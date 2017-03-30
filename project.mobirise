@@ -22,14 +22,14 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 33,
+    "uniqCompNum": 49,
     "versionPublish": "3.12.1"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
+        "title": "Home",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -141,13 +141,23 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">iiiPhotography<br>@Instant_Info_Inn<br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">LEAVE A COMMENT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">&nbsp;HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"gallery.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; GALLERY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; LEAVE A COMMENT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">CONTACT&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "color": "#000000"
+            },
+            ".mbr-section-lead": {
+              "color": "#000000"
+            }
+          },
           "_anchor": "header1-w",
           "_params": {
             "parallax": true,
@@ -170,17 +180,7 @@
           },
           "title": "iiiPhotography",
           "text": "What is photography? How do you perceive a photo?<br><br>Well, let me explain how I feel about photography. First off, I must say photography is the essence of the past, you cannot deny a photo and what it stands for, where it came from or even the time it was snapped. A moment from the past,frozen in time,to reflect upon, learn from and stimulate the mind. I firmly believe photography is one of the worlds most important tools and personally, I cannot wait to see what is in the future for the industry.<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "color": "#000000"
-            },
-            ".mbr-section-lead": {
-              "color": "#000000"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_tags": [
@@ -307,45 +307,197 @@
           "articleLayout": false
         },
         {
+          "_inherit": "msg-box8",
           "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
+            ".mbr-section-title, p": {
+              "color": "#000"
             },
-            "SMALL": {
-              "color": "#ffffff"
+            ".btn": {
+              "font-size": "17px"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             }
           },
           "_tags": [
             "Theme"
           ],
-          "_name": "header3",
-          "_anchor": "header3-5",
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-17",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#c0a375",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": true
+          },
+          "title": "Lets See The Gallery",
+          "text": "<p><i>By Joshua Leavitt Updated 2017-03-30</i></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"gallery.html\" data-toolbar=\"-mbrBtnMove\">TAKE ME THERE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-1c",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "Victoria Canada",
+              "placeId": "ChIJcWGw3Ytzj1QR7Ui7HnTz6Dg",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Address</strong><br>\n1234 Esquimalt Rd.<br>Victoria, British Columbia Canada<br><br><br><br><br>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul><li><a href=\"https://niume.com/profile/105510#!/posts\" target=\"_blank\">Niume</a></li><li><a href=\"https://the8app.com/user/Instant_Info_Inn\" target=\"_blank\">The8App</a></li><li><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-mac.zip\" style=\"font-size: 0.875rem; line-height: 1.8; background-color: rgb(46, 46, 46);\">F</a>lipboard<br></li></ul>"
+        }
+      ]
+    },
+    "gallery.html": {
+      "settings": {
+        "title": "Gallery",
+        "meta_descr": "Web Maker Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "60px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-10",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1332.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "Gallery",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "DIV": {
+              "text-align": "center"
+            },
+            "P": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-size": "19px"
+            }
+          },
+          "_anchor": "content1-16",
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#90a878",
-            "showMeta": true
+            "bgColor": "#a38f84"
           },
-          "title": "<span style=\"font-weight: normal;\">Photo Gallery</span>",
-          "meta": "By Joshua Leavitt Updated March 29, 2017"
+          "text": "<p>Welcome to my photography gallery</p><p>Below you will find my work catagorized</p><p>I will be updating this page periodicly&nbsp;</p><p>Enjoy!</p><p><br></p>"
+        },
+        {
+          "_inherit": "social-buttons1",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-size": "25px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons3",
+          "_anchor": "social-buttons3-13",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "Share?"
         },
         {
           "_inherit": "gallery1",
           "_tags": [
             "Theme"
           ],
-          "_name": "gallery4",
+          "_name": "gallery3",
           "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
+            "paddingTop": "0",
+            "paddingBottom": 1,
             "images": [
               {
                 "tags": "Flowers",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc06175-2000x1338-800x535.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc06175-2000x1338.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06206-800x535-800x535.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06206-800x535.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -354,8 +506,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc06190-2000x1338-800x535.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc06190-2000x1338.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/6tzfofj6sx-3-2000x1447-800x578.png",
+                "image": "@PROJECT_PATH@/assets/images/6tzfofj6sx-3-2000x1447.png",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -364,8 +516,188 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc06206-2000x1338-800x535.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc06206-2000x1338.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06035-2000x1336-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06035-2000x1336.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/17035751-10158212101010237-1165680344-o-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/17035751-10158212101010237-1165680344-o-2000x2666.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2017-03-08-13-2000x2365-800x946.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2017-03-08-13-2000x2365.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2017-03-08-13-2000x2566-800x1026.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2017-03-08-13-2000x2566.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20160501-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160501-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20160604-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160604-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/16f2fea6e5ad9fefa526147e2cb56be8-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/16f2fea6e5ad9fefa526147e2cb56be8-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/100-1-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/100-1-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/100-2-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/100-2-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20160731-170949-2-2000x2678-800x1071.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160731-170949-2-2000x2678.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20161006-1-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20161006-1-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20170307-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20170307-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20170308-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20170308-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20170308-1-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20170308-1-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/123029174-picture-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/123029174-picture-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/cameringo-20160322-2000x3555-800x1422.jpg",
+                "image": "@PROJECT_PATH@/assets/images/cameringo-20160322-2000x3555.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/du9oynfrvu-2000x1200-800x480.png",
+                "image": "@PROJECT_PATH@/assets/images/du9oynfrvu-2000x1200.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/picsart-06-05-2000x2571-800x1028.jpg",
+                "image": "@PROJECT_PATH@/assets/images/picsart-06-05-2000x2571.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06158-2000x1338-800x535.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06158-2000x1338.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -384,18 +716,78 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06165-2000x1338-800x535.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06165-2000x1338.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06175-2000x1338-800x535.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06175-2000x1338.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06184-2000x1338-800x535.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06184-2000x1338.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06190-2000x1338-800x535.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06190-2000x1338.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06198-2000x1338-800x535.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06198-2000x1338.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc06209-2000x1338-800x535.jpg",
                 "image": "@PROJECT_PATH@/assets/images/dsc06209-2000x1338.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
               {
-                "tags": "Ocean",
+                "tags": "Flowers",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc06256-2000x1338-800x535.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc06256-2000x1338.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06224-2000x1338-800x535.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06224-2000x1338.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06241-2000x1338-800x535.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06241-2000x1338.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -412,48 +804,8 @@
               {
                 "tags": "Flowers",
                 "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc06224-2000x1338-800x535.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc06224-2000x1338.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Flowers",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc06176-2000x921-800x368.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc06176-2000x921.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Ocean",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc06257-2000x986-800x394.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc06257-2000x986.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Flowers",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc06198-2000x1338-800x535.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc06198-2000x1338.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Flowers",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc06244-2000x1338-800x535.jpg",
                 "image": "@PROJECT_PATH@/assets/images/dsc06244-2000x1338.jpg",
                 "caption": "Type caption here",
@@ -462,8 +814,58 @@
               {
                 "tags": "Flowers",
                 "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06247-2000x1338-800x535.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06247-2000x1338.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06249-2000x1338-800x535.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06249-2000x1338.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06251-2000x1338-800x535.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06251-2000x1338.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06314-2000x1612-800x644.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06314-2000x1612.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06325-2000x1338-800x535.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06325-2000x1338.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc06349-2000x1338-800x535.jpg",
                 "image": "@PROJECT_PATH@/assets/images/dsc06349-2000x1338.jpg",
                 "caption": "Type caption here",
@@ -472,48 +874,48 @@
               {
                 "tags": "Flowers",
                 "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc06526-2000x1338-800x535.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc06526-2000x1338.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Flowers",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc06529-2000x1338-800x535.jpg",
                 "image": "@PROJECT_PATH@/assets/images/dsc06529-2000x1338.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
               {
-                "tags": "Birds",
+                "tags": "Flowers",
                 "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc06480-2000x1740-800x696.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc06480-2000x1740.jpg",
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06537-2000x1338-800x535.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06537-2000x1338.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animals",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06568-2000x1338-800x535.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06568-2000x1338.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animals",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06447-2000x1649-800x659.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06447-2000x1649.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
               {
                 "tags": "Birds",
                 "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc06462-2000x850-800x340.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc06462-2000x850.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Birds",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc06291-2000x1104-800x441.jpg",
                 "image": "@PROJECT_PATH@/assets/images/dsc06291-2000x1104.jpg",
                 "caption": "Type caption here",
@@ -522,8 +924,68 @@
               {
                 "tags": "Birds",
                 "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06399-2000x1247-800x498.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06399-2000x1247.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Birds",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06402-2000x1069-800x427.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06402-2000x1069.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Birds",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06480-2000x1740-800x696.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06480-2000x1740.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Birds",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06462-2000x850-800x340.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06462-2000x850.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Birds",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06506-2000x1338-800x535.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06506-2000x1338.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Birds",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06507-2000x1338-800x535.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06507-2000x1338.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Birds",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc06517-2000x1295-800x518.jpg",
                 "image": "@PROJECT_PATH@/assets/images/dsc06517-2000x1295.jpg",
                 "caption": "Type caption here",
@@ -532,8 +994,8 @@
               {
                 "tags": "Ocean",
                 "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc06302-2000x1338-800x535.jpg",
                 "image": "@PROJECT_PATH@/assets/images/dsc06302-2000x1338.jpg",
                 "caption": "Type caption here",
@@ -542,271 +1004,227 @@
               {
                 "tags": "Ocean",
                 "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20161204-121620-2-2000x2615-800x1046.jpg",
-                "image": "@PROJECT_PATH@/assets/images/20161204-121620-2-2000x2615.jpg",
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06256-2000x1338-800x535.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06256-2000x1338.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
               {
-                "tags": "Structures",
+                "tags": "Architecture",
                 "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc05896-2000x1336-800x534.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc05896-2000x1336.jpg",
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06257-2000x986-800x394.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06257-2000x986.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
               {
-                "tags": "Structures",
+                "tags": "Architecture",
                 "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc06118-2000x1336-800x534.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc06118-2000x1336.jpg",
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/119036973-picture-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/119036973-picture-2000x1500.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
               {
-                "tags": "Structures",
+                "tags": "Architecture",
                 "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/image-2000x3555-800x1422.jpg",
-                "image": "@PROJECT_PATH@/assets/images/image-2000x3555.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Structures",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2017-01-26-13-2000x1513-800x605.jpg",
-                "image": "@PROJECT_PATH@/assets/images/2017-01-26-13-2000x1513.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Structures",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/fb-img-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/fb-img-2000x1500.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Trees",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/received-2000x1483-800x593.jpg",
-                "image": "@PROJECT_PATH@/assets/images/received-2000x1483.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Flowers",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/16f2fea6e5ad9fefa526147e2cb56be8-2000x1125-800x450.jpg",
-                "image": "@PROJECT_PATH@/assets/images/16f2fea6e5ad9fefa526147e2cb56be8-2000x1125.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Flowers",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc06070-2000x1336-800x534.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc06070-2000x1336.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Flowers",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc06035-2000x1336-800x534.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc06035-2000x1336.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Birds",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc06005-2000x1336-800x534.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc06005-2000x1336.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Flowers",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc06084-2000x1336-800x534.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc06084-2000x1336.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Birds",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc05984-2000x1336-800x534.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc05984-2000x1336.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Birds",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc06007-2000x1336-800x534.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc06007-2000x1336.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Birds",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc05970-2000x1336-800x534.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc05970-2000x1336.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Flowers",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20161006-2000x1125-800x450.jpg",
-                "image": "@PROJECT_PATH@/assets/images/20161006-2000x1125.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Trees",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/cameringo-20160417-2000x3555-800x1422.jpg",
-                "image": "@PROJECT_PATH@/assets/images/cameringo-20160417-2000x3555.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Trees",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/46e532aa-38ef-47a5-b867-f82365cd4c87-2000x3555-800x1422.jpg",
-                "image": "@PROJECT_PATH@/assets/images/46e532aa-38ef-47a5-b867-f82365cd4c87-2000x3555.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Structures",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/100-2000x1500-800x600.jpg",
                 "image": "@PROJECT_PATH@/assets/images/100-2000x1500.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
               {
-                "tags": "Trees",
+                "tags": "Architecture",
                 "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20170217-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/20170217-2000x1500.jpg",
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20160508-1-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20160508-1-2000x1125.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
               {
-                "tags": "Trees",
+                "tags": "Architecture",
                 "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2016-04-22-17-2000x1125-800x450.jpg",
-                "image": "@PROJECT_PATH@/assets/images/2016-04-22-17-2000x1125.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Structures",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/20160508-143929-2-2000x1125-800x450.jpg",
                 "image": "@PROJECT_PATH@/assets/images/20160508-143929-2-2000x1125.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
               {
-                "tags": "Structures",
+                "tags": "Architecture",
                 "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20160508-2000x1125-800x450.jpg",
-                "image": "@PROJECT_PATH@/assets/images/20160508-2000x1125.jpg",
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/100-3-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/100-3-2000x1500.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
               {
-                "tags": "Structures",
+                "tags": "Architecture",
                 "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/cameringo-20160423-2000x3555-800x1422.jpg",
-                "image": "@PROJECT_PATH@/assets/images/cameringo-20160423-2000x3555.jpg",
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc05896-2000x1336-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc05896-2000x1336.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
               {
-                "tags": "Flowers",
+                "tags": "Architecture",
                 "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uwsEZWeK9C4",
-                "videoPreview": "@PROJECT_PATH@/2017-03-29_00-10-07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20160607-2000x1125-800x450.jpg",
-                "image": "@PROJECT_PATH@/assets/images/20160607-2000x1125.jpg",
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06118-2000x1336-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06118-2000x1336.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Birds",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc06140-2000x1336-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc06140-2000x1336.jpg",
                 "caption": "Type caption here",
                 "active": true
               }
             ],
-            "spacing": 1,
+            "spacing": "1",
             "showText": false,
             "filter": true,
-            "bgColor": "#90a878",
-            "filterBgColor": false,
-            "fullWidth": false,
+            "bgColor": "#2c2d31",
+            "filterBgColor": true,
+            "fullWidth": true,
             "showBullets": true
           },
-          "_anchor": "gallery4-1",
+          "_anchor": "gallery3-15",
           "articleLayout": false,
           "allItem": "All"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-x",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Mobirise."
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-y",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": false,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/iiiphotography-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">iiiPhotography<br>@Instant_Info_Inn<br></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">&nbsp;HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"gallery.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; GALLERY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; LEAVE A COMMENT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">CONTACT&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         }
       ]
     },
-    "page1.html": {
+    "comments.html": {
       "settings": {
-        "title": "Site Generator Title",
+        "title": "Comments",
         "meta_descr": "Site Generator Description"
       },
       "components": [
@@ -815,6 +1233,12 @@
             "Theme"
           ],
           "_name": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
           "_anchor": "header2-k",
           "_params": {
             "imageSize": 50,
@@ -860,13 +1284,7 @@
           },
           "title": "Comment Section",
           "text": "“I try to make my comments like a woman's skirt: long enough to be respectable and short enough to be interesting. ” <br>― Adam Clayton Powell III<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         },
         {
           "alias": "facebook-comments",
@@ -997,13 +1415,13 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">iiiPhotography<br>@Instant_Info_Inn<br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">LEAVE A COMMENT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">&nbsp;HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"gallery.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; GALLERY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; LEAVE A COMMENT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">CONTACT&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         }
       ]
     },
-    "page2.html": {
+    "contact.html": {
       "settings": {
-        "title": "Web Page Creator Title",
+        "title": "Contact",
         "meta_descr": "Web Page Creator Description"
       },
       "components": [
@@ -1111,13 +1529,19 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">iiiPhotography<br>@Instant_Info_Inn<br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">LEAVE A COMMENT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">&nbsp;HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"gallery.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; GALLERY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; LEAVE A COMMENT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">CONTACT&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
           "_anchor": "header1-q",
           "_params": {
             "parallax": true,
@@ -1140,19 +1564,23 @@
           },
           "title": "Contact Me",
           "text": "“Extend to each person, no matter how trivial the contact, all the care and kindness and understanding and love that you can muster, and do it with no thought of any reward. Your life will never be the same again.” <br>― Og Mandino<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            },
+            ".mbr-section-title": {
+              "text-align": "center",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
           "_anchor": "form1-v",
           "_params": {
             "labelsColor": "#232323",
@@ -1198,17 +1626,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT ME</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            },
-            ".mbr-section-title": {
-              "text-align": "center",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT ME</a>"
         }
       ]
     }
