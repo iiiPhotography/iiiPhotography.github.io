@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "gallery.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -380,7 +380,7 @@
     "gallery.html": {
       "settings": {
         "title": "Gallery",
-        "meta_descr": "Web Maker Description"
+        "meta_descr": "iiiPhotography Gallery Catagorized"
       },
       "components": [
         {
