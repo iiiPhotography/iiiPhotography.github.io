@@ -9,6 +9,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -502,6 +503,14 @@ h6,
 }
 #msg-box3-17 .mbr-section-title {
   font-family: 'Oswald', sans-serif;
+}
+#social-buttons4-1e .mbr-section-title,
+#social-buttons4-1e .btn-social {
+  color: #fff;
+}
+#social-buttons4-1e .mbr-section-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 46px;
 }
 
 
