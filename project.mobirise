@@ -1145,6 +1145,226 @@
                 "thumb": "@PROJECT_PATH@/assets/images/dsc06140-2000x1336-800x534.jpg",
                 "image": "@PROJECT_PATH@/assets/images/dsc06140-2000x1336.jpg",
                 "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Birds",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1489682150409-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1489682150409-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Birds",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image1-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/image1-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Birds",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1489682157632-2000x3555-800x1422.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1489682157632-2000x3555.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animals",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/received-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/received-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animals",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/received-1-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/received-1-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animals",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/received-2-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/received-2-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animals",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1489687263049-2000x2114-800x845.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1489687263049-2000x2114.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Ocean",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2017-01-18-18-2000x1125-800x450.png",
+                "image": "@PROJECT_PATH@/assets/images/2017-01-18-18-2000x1125.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Ocean",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20170219-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20170219-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Ocean",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1489630193128-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1489630193128-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Ocean",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1489682178336-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1489682178336-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Ocean",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1489682195494-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1489682195494-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Ocean",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1489687318929-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1489687318929-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Ocean",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/image-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Ocean",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/received-2000x1482-800x592.jpg",
+                "image": "@PROJECT_PATH@/assets/images/received-2000x1482.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Ocean",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2016-04-16-22-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2016-04-16-22-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Ocean",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20161204-121620-2-2000x2615-800x1046.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20161204-121620-2-2000x2615.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20170118-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20170118-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2017-01-28-17-2000x2379-800x951.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2017-01-28-17-2000x2379.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20170330-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20170330-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2017-01-18-19-2000x2604-800x1041.png",
+                "image": "@PROJECT_PATH@/assets/images/2017-01-18-19-2000x2604.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2017-01-21-23-2000x2998-800x1199.png",
+                "image": "@PROJECT_PATH@/assets/images/2017-01-21-23-2000x2998.png",
+                "caption": "Type caption here",
                 "active": true
               }
             ],
