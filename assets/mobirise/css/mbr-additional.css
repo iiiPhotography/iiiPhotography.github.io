@@ -507,6 +507,8 @@ h6,
 
 
 
+
+
 #msg-box8-10 .mbr-section-title,
 #msg-box8-10 p {
   color: #fff;
@@ -520,7 +522,19 @@ h6,
 }
 #content1-16 P {
   font-family: 'Oswald', sans-serif;
-  font-size: 19px;
+  font-size: 23px;
+}
+#msg-box2-1f .mbr-section-title {
+  color: #fff;
+}
+#msg-box2-1f .mbr-section-subtitle {
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+}
+#msg-box2-1f .btn {
+  font-size: 17px;
+  font-family: 'Oswald', sans-serif;
 }
 #social-buttons3-13 .mbr-section-title,
 #social-buttons3-13 .btn-social {
