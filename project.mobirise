@@ -1345,7 +1345,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/20170330-2000x1500-800x600.jpg",
                 "image": "@PROJECT_PATH@/assets/images/20170330-2000x1500.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Flowers",
@@ -1356,6 +1356,36 @@
                 "image": "@PROJECT_PATH@/assets/images/1489681370158-2000x2706.jpg",
                 "caption": "Type caption here",
                 "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1489681369495-2000x2496-800x998.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1489681369495-2000x2496.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1489682156041-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1489682156041-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Flowers",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2017-01-26-15-2000x1125-800x450.png",
+                "image": "@PROJECT_PATH@/assets/images/2017-01-26-15-2000x1125.png",
+                "caption": "Type caption here",
+                "active": true
               }
             ],
             "spacing": "1",
