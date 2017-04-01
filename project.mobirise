@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "contact.html",
+    "currentPage": "gallery.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -487,7 +487,7 @@
             "showTitle": false,
             "showText": true
           },
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://www.clickasnap.com/i/4p4q9nk9tep7ahr5\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Click Here!</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-success\" href=\"https://www.clickasnap.com/i/4p4q9nk9tep7ahr5\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Click Here!</a>",
           "title": "",
           "text": "Support My Work By Viewing My ClickaSnap Gallery?"
         },
