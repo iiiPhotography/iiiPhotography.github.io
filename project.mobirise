@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "gallery.html",
+    "currentPage": "comments.html",
     "name": "iiiPhotography",
     "theme": {
       "name": "mobirise3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 54,
+    "uniqCompNum": 55,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -1583,9 +1583,9 @@
             "Extension"
           ],
           "_name": "facebook-comments-block",
-          "_anchor": "facebook-comments-block-l",
+          "_anchor": "facebook-comments-block-1i",
           "_params": {
-            "postsNumber": "8",
+            "postsNumber": 5,
             "bgImage": "@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/comments_bg.jpg",
             "bgImageRadio": false,
             "bgColor": "#fff",
